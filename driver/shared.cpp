@@ -6,7 +6,7 @@
 HANDLE g_SectionHandle{NULL};
 PVOID g_SectionPointer{NULL};
 PVOID g_SharedSection{nullptr};
-SIZE_T SharedMemSize = 1024 * 10;
+SIZE_T SharedMemSize = 1024 * 10; // 10 kb
 
 extern "C" POBJECT_TYPE* MmSectionObjectType;
 

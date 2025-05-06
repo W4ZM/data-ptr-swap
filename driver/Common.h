@@ -1,13 +1,14 @@
 #pragma once
 #ifdef _KERNEL_MODE
-#include <ntddk.h>    // or #include <ntdef.h>
+#include <ntddk.h>  
 #else
 #include <Windows.h>
 #include <cstdint>
 #endif
+
 #define MAGIC 1337
-#define PROCESS_NAME "ac_client.exe"
-#define MODULE_NAME L"client.dll"
+#define PROCESS_NAME "" // ProcessName.exe
+#define MODULE_NAME L"" // ModuleName.dll
 
 typedef enum _OPERATION_TYPE
 {

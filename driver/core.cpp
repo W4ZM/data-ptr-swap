@@ -63,7 +63,7 @@ NTSTATUS MyFunction()
 			}
 
 			UNICODE_STRING name;
-			RtlInitUnicodeString(&name, MODULE_NAME); // for cs2 ... u can change it
+			RtlInitUnicodeString(&name, MODULE_NAME);
 
 			PVOID module_address;
 			ULONG module_size;

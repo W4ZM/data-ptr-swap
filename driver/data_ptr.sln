@@ -5,8 +5,6 @@ VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "data_ptr", "test_driver.vcxproj", "{AAEC8EDF-0B49-4B31-BE8E-8EADB85698A1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "client", "client\client.vcxproj", "{4A40351C-4061-4A8B-9542-DFE28D0B0274}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM64 = Debug|ARM64
@@ -27,14 +25,6 @@ Global
 		{AAEC8EDF-0B49-4B31-BE8E-8EADB85698A1}.Release|x64.ActiveCfg = Release|x64
 		{AAEC8EDF-0B49-4B31-BE8E-8EADB85698A1}.Release|x64.Build.0 = Release|x64
 		{AAEC8EDF-0B49-4B31-BE8E-8EADB85698A1}.Release|x64.Deploy.0 = Release|x64
-		{4A40351C-4061-4A8B-9542-DFE28D0B0274}.Debug|ARM64.ActiveCfg = Debug|x64
-		{4A40351C-4061-4A8B-9542-DFE28D0B0274}.Debug|ARM64.Build.0 = Debug|x64
-		{4A40351C-4061-4A8B-9542-DFE28D0B0274}.Debug|x64.ActiveCfg = Debug|x64
-		{4A40351C-4061-4A8B-9542-DFE28D0B0274}.Debug|x64.Build.0 = Debug|x64
-		{4A40351C-4061-4A8B-9542-DFE28D0B0274}.Release|ARM64.ActiveCfg = Release|x64
-		{4A40351C-4061-4A8B-9542-DFE28D0B0274}.Release|ARM64.Build.0 = Release|x64
-		{4A40351C-4061-4A8B-9542-DFE28D0B0274}.Release|x64.ActiveCfg = Release|x64
-		{4A40351C-4061-4A8B-9542-DFE28D0B0274}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
