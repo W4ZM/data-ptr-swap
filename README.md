@@ -10,7 +10,7 @@ A Windows 11 (24H2) kernel‑mode driver that hooks the `NtUserCreateWindowStat
 
 
 - **IoCreateDriver (from [Th3Spl](https://github.com/Th3Spl/IoCreateDriver))**  
-  Uses @Th3Spl’s `IoCreateDriver` to bypass `PsLoadedModuleList` and `EtwTiLogDriverObjectLoad`.
+  Uses `IoCreateDriver` to bypass `PsLoadedModuleList` and `EtwTiLogDriverObjectLoad`.
 
 - **Shared Memory IPC**  
   Creates section objects for fast, secure communication between kernel and user‑mode client.
