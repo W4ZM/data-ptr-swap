@@ -1,6 +1,6 @@
 # Data PTR Hook Driver
 
-A Windows 11 (24H2) kernel‑mode driver that hooks the `NtUserCreateWindowStation` function in `win32k.sys` by swapping its pointer to your function in your mapped driver.
+A ready to paste Windows 11 (24H2) kernel‑mode driver that hooks the `NtUserCreateWindowStation` function in `win32k.sys` by swapping its pointer to your function in your mapped driver.
 
 ---
 
