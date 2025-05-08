@@ -119,11 +119,11 @@ NTSTATUS MyFunction()
 		if (msg->magic == MAGIC && msg->opType == OPERATION_TYPE::OP_WRITE)
 		{
 			KeMemoryBarrier();
-			// is it necessary ?
+			
 			if (msg->ProcId == 0 || msg->data == NULL || msg->dataSize == 0)
 			{
 				KdPrintEx((DPFLTR_IHVDRIVER_ID, DPFLTR_INFO_LEVEL,
-					"[-] Some BS got provided to WriteProcessMemory\n"));
+					"[-] %s : invalid parameters\n", __FUNCTION__));
 				return STATUS_UNSUCCESSFUL;
 			}
 
