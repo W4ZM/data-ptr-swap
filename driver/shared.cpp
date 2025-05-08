@@ -223,8 +223,7 @@ NTSTATUS CreateNamedEvent(_In_ PCWSTR EventName, _In_ EVENT_TYPE Type, _In_ BOOL
 	}
 
 	// Manually build the DACL.
-	// In this example we grant full access to everyone. In a real scenario,
-	// you should build a proper ACL that meets your security requirements.
+	// In this example we grant full access to everyone.
 	status = RtlSetDaclSecurityDescriptor(
 		pSecDescriptor,  // Security descriptor pointer
 		TRUE,            // Dacl present

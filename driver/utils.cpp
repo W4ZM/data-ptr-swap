@@ -319,7 +319,6 @@ namespace utils
                 return status;
             }
 
-            // Now, instead of directly comparing localEntry.BaseDllName,
             // copy the BaseDllName.Buffer (the actual module name) from the remote process.
 
             if (localEntry.BaseDllName.Length > 0 && localEntry.BaseDllName.Buffer != NULL)
