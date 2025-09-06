@@ -20,7 +20,7 @@ A Windows kernel‑mode driver that hooks the `NtUserCreateWindowStation` functi
 
 ## How to build
 
-```
+```bash
 git clone https://github.com/W4ZM/data-ptr-swap.git
 cd data-ptr-swap && mkdir build && cd build
 cmake ..
