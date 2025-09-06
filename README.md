@@ -6,10 +6,10 @@ A Windows kernel‑mode driver that hooks the `NtUserCreateWindowStation` functi
 
 ## Features
 
-- **Mapped with [Kdmapper](https://github.com/TheCruZ/kdmapper).** 
-- **IoCreateDriver (from [Th3Spl](https://github.com/Th3Spl/IoCreateDriver)).**  
-- **Uses shared memory (section objects) communication.**  
-- **Uses physical memory to read/write process virtual memory.**
+- Mapped with [Kdmapper](https://github.com/TheCruZ/kdmapper). 
+- IoCreateDriver (from [Th3Spl](https://github.com/Th3Spl/IoCreateDriver)).  
+- Uses shared memory (section objects) communication.  
+- Uses physical memory to read/write process virtual memory.
 
 ## Requirements
 
